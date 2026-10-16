@@ -158,7 +158,4 @@ teste-jdc/
 
 ## License
 
-No license specified.
-
-> **TODO:**
-> - [ ] Add a license file (e.g., MIT, Apache 2.0).
+This project is licensed under the [MIT License](LICENSE).
