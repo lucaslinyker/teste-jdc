@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
+    // dot not this like the professor, add a try catch, will facility your life
     public static Connection getConnection() throws SQLException {
         String host = "localhost";
         String port = "1521";

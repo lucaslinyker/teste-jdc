@@ -12,6 +12,9 @@ CREATE TABLE tb_game (
     st_finalizado NUMBER(1) -- Oracle doest have boolean
 );
 
-/*
 INSERT INTO TB_GAME (cd_game, nm_game, nr_nota, nr_ano, dt_compra, st_finalizado)
-VALUES (1, "Hiades", 0, 0, 1, 0);*/
+VALUES (SQ_TB_GAME.nextval, 'Hades', 9.3, 2020, DATE '2026-02-14', 1);
+
+select * from tb_game;
+
+delete from tb_game where cd_game = 1;
